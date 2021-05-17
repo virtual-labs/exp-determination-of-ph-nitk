@@ -1,0 +1,254 @@
+html
+{
+    -moz-user-select     : none;
+    -khtml-user-select   : none;
+    -webkit-user-select  : none;
+    -o-user-select       : none;
+    user-select          : none;
+}
+
+#simscreen
+{
+	position: relative;
+	left:0px;
+	top:0px;
+	height: 600px; 
+	width:800px;
+	border:solid 1px;
+}
+
+#title{
+	position:relative;
+	left: 0px;
+	top: 0px;
+	height:40px;
+	font-size: 22px;
+	text-align:center;
+	background-color: black;
+	font-family: verdana;
+	color: White;
+	/* text-transform: uppercase;  */
+}
+
+#title h3
+{
+	padding-top:2px;
+	margin:0px;
+}	
+
+.simsubscreen
+{
+	position:absolute;
+	left:50px;
+	top:50px;
+	height:530px;
+	width:745px;
+}
+
+.incanvas
+{
+	margin:5px 0 0 5px;
+	padding:0;
+}
+
+#nextButton
+{
+	position:absolute;
+	left:750px;
+	top:530px;
+	cursor:pointer;
+}
+
+.circlebg
+{
+	border-radius:100%;
+	font-size:25px;
+	color:#fff;
+	text-align:center;
+	background:#000
+}
+
+.steptext
+{
+	display:inline;
+	font-size:14px;
+}
+
+#copyright
+{
+	position: absolute;
+	left:60px;
+	top: 580px;
+	font-size:12px
+}
+
+/* //canvas 3 */
+@-webkit-keyframes rotateElectrode 
+{
+    0% {transform: rotate(-15deg);}
+	100% {-webkit-transform: rotate(0deg);}
+}
+
+/* Standard syntax */
+@keyframes rotateElectrode  
+{
+    0% {transform: rotate(-15deg);}
+	100% {-webkit-transform: rotate(0deg);}
+}
+/* //canvas 3 for t1*/
+@-webkit-keyframes moveTissue1
+{
+    0% {left:310px; top:227px;}
+    50% {left:305px; top:240px;}
+	100% {left:310px; top:227px;}  
+}
+
+@keyframes moveTissue1
+{
+    0% {left:310px; top:227px;}
+    50% {left:305px; top:240px;}
+	100% {left:310px; top:227px;}        
+}
+/* //canvas 3 for t2*/
+@-webkit-keyframes moveTissue2
+{
+    0% {left:310.5px; top:220px;}
+    50% {left:305.5px; top:233px;}
+	100% {left:310.5px; top:220px;}  
+}
+
+@keyframes moveTissue2
+{
+    0% {left:310.5px; top:220px;}
+    50% {left:305.5px; top:233px;}
+	100% {left:310.5px; top:220px;}    
+}
+
+/* pour coke canvas1 */
+@-webkit-keyframes movecoke1
+{
+    0% {left:310.5px; top:220px;}
+    50% {left:305.5px; top:233px;}
+	100% {left:310.5px; top:220px;}  
+}
+
+@keyframes movecoke1
+{
+    0% {left:310.5px; top:220px;}
+    50% {left:305.5px; top:233px;}
+	100% {left:310.5px; top:220px;}    
+}
+
+@-webkit-keyframes rotateBottle 
+{
+    0% {transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(-90deg);}
+}
+
+/* Standard syntax */
+@keyframes rotateBottle   
+{
+    0% {transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(-90deg);}
+}
+
+@-webkit-keyframes rotateBottle2 
+{
+    0% {transform: rotate(-90deg);}
+	100% {-webkit-transform: rotate(-95deg);}
+}
+
+/* Standard syntax */
+@keyframes rotateBottle2  
+{
+    0% {transform: rotate(-90deg);}
+	100% {-webkit-transform: rotate(-95deg);}
+}
+
+/* canvas1 */
+@-webkit-keyframes rotateSqueezer1
+{
+    0% {transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(45deg);}
+}
+
+/* Standard syntax */
+@keyframes rotateSqueezer1  
+{
+    0% {transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(45deg);}
+}
+
+/* canvas1 */
+@-webkit-keyframes rotateSqueezer2
+{
+    0% {transform: rotate(45deg);}
+	100% {-webkit-transform: rotate(50deg);}
+}
+
+/* Standard syntax */
+@keyframes rotateSqueezer2  
+{
+    0% {transform: rotate(45deg);}
+	100% {-webkit-transform: rotate(50deg);}
+}
+
+/* canvas1 */
+@-webkit-keyframes rotateSqueezer3
+{
+    0% {transform: rotate(50deg);}
+	100% {-webkit-transform: rotate(0deg);}
+}
+
+/* Standard syntax */
+@keyframes rotateSqueezer3  
+{
+    0% {transform: rotate(50deg);}
+	100% {-webkit-transform: rotate(0deg);}
+}
+
+/* canvas 1 lime drops */
+@-webkit-keyframes drop1 
+{
+  0% {
+    transform: scale3d(0.01,0.01,0.01) translateY(0) rotate(-45deg)
+  }
+  10% {
+    transform: scale3d(1,1,1) rotate(-45deg)
+  }
+  44% {
+    transform: scale3d(1,1,1) translateY(60px) rotate(-45deg)
+  }
+  100% {
+    transform: scale3d(1,1,1) translateY(60px) rotate(-45deg)
+  }
+}
+@keyframes drop1 
+{
+  0% {
+    transform: scale3d(0.01,0.01,0.01) translateY(0) rotate(-45deg)
+  }
+  10% {
+    transform: scale3d(1,1,1) rotate(-45deg)
+  }
+  44% {
+    transform: scale3d(1,1,1) translateY(69px) rotate(-45deg)
+  }
+  100% {
+    transform: scale3d(1,1,1) translateY(69px) rotate(-45deg)
+  }
+}
+
+/* canvas 1 move glass rod */
+@-webkit-keyframes moverod
+{
+	0%{left:360px; top:200px;}
+	50%{left:390px; top:200px;}
+	1000%{left:360px; top:200px;}
+}
+@keyframes moverod
+{
+	0%{left:360px; top:200px;}
+	50%{left:390px; top:200px;}
+	1000%{left:360px; top:200px;}
+}

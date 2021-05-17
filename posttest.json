@@ -1,0 +1,46 @@
+[{
+	"question": "What is the H+ ion concentration in pure water?",
+	"answers": {
+		"a": "1 x 10<sup>-7</sup>m",
+		"b": "1 x 10<sup>+7</sup>m",
+		"c": "1 x 10<sup>-14</sup>m",
+		"d": "1 x 10<sup>14</sup>m"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Buffers are mixtures of ",
+	"answers": {
+		"a": "Strong acid and strong base",
+		"b": "Strong acid and weak base",
+		"c": "Weak acid and their conjugate base",
+		"d": "Weak base and their conjugate acid"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "As the pKa of an acid increases, the acid will be ",
+	"answers": {
+		"a": "More weaker",
+		"b": "More stronger",
+		"c": "Converted to neutral solution",
+		"d": "Converted to basic solution"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Normal pH of blood is ",
+	"answers": {
+		"a": "6.8",
+		"b": "7.0",
+		"c": "7.2",
+		"d": "7.5"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Which of the following has least pH value? ",
+	"answers": {
+		"a": "HI",
+		"b": "HNO<sub>3</sub>",
+		"c": "HBr",
+		"d": "HCl"
+	},
+	"correctAnswer": "d"
+}]

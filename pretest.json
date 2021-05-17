@@ -1,0 +1,46 @@
+[{
+	"question": "What is the pH of pure water at 25&deg;C? ",
+	"answers": {
+		"a": "2",
+		"b": "4",
+		"c": "7",
+		"d": "10"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "What is the pH of acidic solution? ",
+	"answers": {
+		"a": "Zero",
+		"b": "Less than 7",
+		"c": "More than 7",
+		"d": "More than 12"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "What happens to the pH of a solution if a little acid is added to it? ",
+	"answers": {
+		"a": "pH turns into zero",
+		"b": "Remains the same",
+		"c": "Increases",
+		"d": "Decreases"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Which of the following is acidic in nature? ",
+	"answers": {
+		"a": "Caustic soda",
+		"b": "Apple juice ",
+		"c": "Vinegar ",
+		"d": "Soap solution"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Which of the following has high pH value? ",
+	"answers": {
+		"a": "KOH",
+		"b": "NaOH",
+		"c": "LiOH",
+		"d": "Ca(OH)<sub>2</sub>"
+	},
+	"correctAnswer": "a"
+}]
