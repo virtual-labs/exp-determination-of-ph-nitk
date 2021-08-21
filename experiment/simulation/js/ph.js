@@ -475,7 +475,7 @@ function calibrate()
 								$("#"+can+"-6b").animate({"position":"absolute","top":"243px"},700,
 								function()
 								{
-									document.getElementById("p"+can+"-7").innerHTML="4.00";
+									document.getElementById("p"+can+"-7").innerHTML="7.00";
 									//document.getElementById("nextButton").style.visibility="visible";
 									validateAnswer(0,0,"440px","200px");
 								});
@@ -558,7 +558,7 @@ function calibrate2()
 							{
 								if(can==6)
 								{
-									document.getElementById("p"+can+"-7").innerHTML="9.2";
+									document.getElementById("p"+can+"-7").innerHTML="4.00";
 									document.getElementById("nextButton").style.visibility="visible";
 								}
 								if(can==8)
@@ -572,18 +572,19 @@ function calibrate2()
 									}
 									if(can==8)
 									{
-										if(val==1)
-										{
-											validateAnswer(4,3,"450px","300px");
-										}
-										if(val==3)
-										{
-											validateAnswer(6,3,"450px","300px");
-										}
-										if(val==2 || val==4)
-										{
-											document.getElementById("nextButton").style.visibility="visible";
-										}
+										document.getElementById("nextButton").style.visibility="visible";
+										// if(val==1)
+										// {
+											// validateAnswer(4,3,"450px","300px");
+										// }
+										// if(val==3)
+										// {
+											// validateAnswer(6,3,"450px","300px");
+										// }
+										// if(val==2 || val==4)
+										// {
+											// document.getElementById("nextButton").style.visibility="visible";
+										// }
 									}
 								}
 							});
